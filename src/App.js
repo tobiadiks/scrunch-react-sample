@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import compressImageClient  from 'scrunchjs';
+import {compressImageClient}  from 'scrunchjs/client';
 
 const ImageUploader = () => {
   const [image, setImage] = useState(null);
